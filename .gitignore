@@ -1,0 +1,24 @@
+# Node modules
+**/node_modules/
+
+# Build outputs
+frontend/build/
+backend/artifacts/
+backend/cache/
+backend/env
+backend/typechain
+backend/typechain-types
+
+frontend/env
+
+# Env files (never upload secrets!)
+*.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS junk files
+.DS_Store
+Thumbs.db
