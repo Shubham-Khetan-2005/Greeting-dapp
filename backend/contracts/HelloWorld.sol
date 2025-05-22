@@ -13,7 +13,7 @@ contract HelloWorld {
     }
 
     // If you want to change the message later, you could add:
-    // function setGreeting(string calldata _newGreeting) external {
-    //     greeting = _newGreeting;
-    // }
+    function setGreeting(string calldata _newGreeting) external {
+        greeting = _newGreeting;
+    }
 }

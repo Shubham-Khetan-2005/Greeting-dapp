@@ -10,6 +10,7 @@ backend/typechain
 backend/typechain-types
 
 frontend/env
+frontend/src/abis
 
 # Env files (never upload secrets!)
 *.env
